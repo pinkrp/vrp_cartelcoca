@@ -6,7 +6,7 @@ vRPclient = Tunnel.getInterface("vRP")
 skD = {}
 Tunnel.bindInterface("cartel_coca",skD)
 
-local drugs = "https://discordapp.com/api/webhooks/723747124680065065/TH3BK30okMCyjlUmhWAM-ja5umRr0JSmzRsdT25tntr5t81aq6QXIHZkTYnSdFj-5bJX"
+local drugs = ""
 
 function SkidLogs(webhook,message)
 	if webhook ~= nil and webhook ~= "" then
