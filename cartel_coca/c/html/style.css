@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    background:rgba(0,0,0,0.7);
+    width: 500px;
+    height: 600px;
+    border-radius: 5px;
+    margin-top:9.5%;
+    margin-left:35%;
+    border: 2px solid #e01646;  
+    display: block; 
+
+}
+
+#title {
+    width: 500px;
+    height: 69px;
+    border-radius: 2px 2px 0px 0px;
+    /* background-color:  #e01646;     */
+    line-height: 220%;
+    color:white;
+    font-family: Impact;
+    font-size:36px;
+    padding-bottom: 2%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.block{
+    width: 500px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 5px;
+}
+
+
+.divisaum {
+    width: 249px;
+    height: 400px;
+    /* background: rgba(0,0,0,0.7); */
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color:white;
+    font-family: Impact;
+    font-size:25px;   
+} 
+
+.antesunidade{ 
+    width: 249px;
+    height: 105px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /* background: blue; */
+    padding-top:4.5%;
+    margin-top: 4%;
+
+} 
+
+.divisaum2 {
+    width: 249px;
+    height: 425px;
+    /* background: rgba(255,255,255,.7); */
+    border-radius: 5px;
+}
+
+.img {
+    width: 90px;
+    height: 80px;    
+}
+
+.img2 {
+    width: 60px;
+    height: 45px;
+    margin-top:3%;    
+}
+
+.antesbarra{ 
+    width: 249px;
+    height: 90px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /* background: blue; */
+    padding-top:4.5%;
+    margin-top: 8.5%;
+
+}
+.barrinha
+{
+    width: 200px;
+    height: 70px;    
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+
+#finalarea {
+    width: 500px;
+    height: 86px;
+    position:absolute;
+    margin-top: 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 0px 0px 5px 5px;
+    padding-top: 3%;
+}
+
+#confirm{
+    width: 100px;
+    height: 50px;
+    line-height: 220%;
+    background:green;
+    margin-left: 54%;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color:white;
+    font-family: Impact;
+    font-size:20px;   
+}
+
+#close{
+    width: 100px;
+    height: 50px;
+    background:red;
+    line-height: 220%;
+    margin-left: 8%;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color:white;
+    font-family: Impact;
+    font-size:20px;   
+    
+}
+
