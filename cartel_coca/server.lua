@@ -70,7 +70,7 @@ function skD.production(qtdleaf,qtdgas,qtdacid)
 								if parseInt(amount) < 1 then
 									amount = 1
 								end
-								if parseInt(math.random(100)) >= 86
+								if parseInt(math.random(100)) >= 86 then
 									prod("pastabasemq",parseInt(amount*4),parseInt(15000))
 								else
 									prod("pastabasehq",parseInt(amount*3),parseInt(15000))
@@ -90,7 +90,7 @@ function skD.production(qtdleaf,qtdgas,qtdacid)
 								if parseInt(amount) < 1 then
 									amount = 1
 								end
-								if parseInt(math.random(100)) >= 95
+								if parseInt(math.random(100)) >= 95 then
 									prod("pastabasemq",parseInt(amount*3),parseInt(15000))
 								else
 									prod("pastabasehq",parseInt(amount*5),parseInt(15000))
@@ -130,7 +130,7 @@ function skD.production(qtdleaf,qtdgas,qtdacid)
 								if parseInt(amount) < 1 then
 									amount = 1
 								end								
-								if parseInt(math.random(100)) >= 90
+								if parseInt(math.random(100)) >= 90 then
 									prod("pastabaselq",parseInt(amount*5),parseInt(15000))	
 								else
 									prod("pastabasemq",parseInt(amount*3),parseInt(15000))	
@@ -150,7 +150,7 @@ function skD.production(qtdleaf,qtdgas,qtdacid)
 								if parseInt(amount) < 1 then
 									amount = 1
 								end
-								if parseInt(math.random(100)) >= 97
+								if parseInt(math.random(100)) >= 97 then
 								prod("pastabaselq",parseInt(amount*5),parseInt(15000))	
 							else
 								prod("pastabasehq",parseInt(amount*2),parseInt(15000))	
@@ -171,7 +171,7 @@ function skD.production(qtdleaf,qtdgas,qtdacid)
 									if parseInt(amount) < 1 then
 										amount = 1
 									end
-									if parseInt(math.random(100)) >= 90
+									if parseInt(math.random(100)) >= 90 then
 										prod("pastabaselq",parseInt(amount*5),parseInt(15000))	
 									else
 										prod("pastabasemq",parseInt(amount*3),parseInt(15000))	
