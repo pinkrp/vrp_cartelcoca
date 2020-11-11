@@ -32,7 +32,7 @@ function skD.production(qtdleaf,qtdgas,qtdacid)
 	local user_id = vRP.getUserId(source)
 	--proporção certa 20 folhas x 5 Gasolina (ou 10 Querosene) x 2 ácido
 	if user_id then		
-		if vRP.getInventoryItemAmount(user_id,"folhadecoca") < parseInt(qtdleaf)	then
+		if vRP.getInventoryItemAmount(user_id,"folhadecoca") < parseInt(qtdleaf) then
 			TriggerClientEvent("Notify",source,"Você não possui Folha de Coca suficientes.","Impossível","Vermelho")
 			return
 		elseif vRP.getInventoryItemAmount(user_id,"gasolina") < parseInt(qtdgas) then
@@ -110,7 +110,7 @@ function skD.production(qtdleaf,qtdgas,qtdacid)
 								if parseInt(amount) < 1 then
 									amount = 1
 								end	
-								if parseInt(math.random(100)) >= 90
+								if parseInt(math.random(100)) >= 90 then
 									prod("pastabasemq",parseInt(amount*6),parseInt(15000))		
 								else
 									prod("pastabasehq",parseInt(amount*5),parseInt(15000))
